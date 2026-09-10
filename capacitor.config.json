@@ -1,0 +1,6 @@
+{
+  "appId": "br.com.raify.app",
+  "appName": "RAIFY",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}
