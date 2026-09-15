@@ -30,6 +30,8 @@ import Monitoramento from './pages/Monitoramento';
 import Relatorios from './pages/Relatorios';
 import Tecnico from './pages/Tecnico';
 import Alternativas from './pages/Alternativas';
+import Assinaturas from './pages/Assinaturas';
+import Chat from './pages/Chat';
 export default function App() {
   return (
     <BrowserRouter>
@@ -76,7 +78,9 @@ export default function App() {
           <Route path="monitoramento" element={<Monitoramento />} />
           <Route path="relatorios" element={<Relatorios />} />
           <Route path="tecnico" element={<Tecnico />} />
-          <Route path="alternativas" element={<Alternativas />} />
+          <Route path="alternativas" element={<Alternativas />}
+          <Route path="assinaturas" element={<Assinaturas />}/>
+          <Route path="chat" element={<Chat />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

@@ -75,6 +75,7 @@ textarea {
 
 .raify-logo-compact {
   width: 108px;
+  margin-right: auto;
 }
 
 .form-control,
@@ -194,11 +195,11 @@ label {
 
 .topbar {
   height: 82px;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   border-bottom: 1px solid rgba(220, 232, 223, 0.7);
   margin-bottom: 24px;
-  background-color: var(--raify-primary);
+  background-color: var(--raify-bg);
 }
 
 .topbar-right {
@@ -261,7 +262,7 @@ label {
 }
 
 .mobile-greenbar .raify-logo {
-  background: white;
+  background: rgb(0, 0, 0);
   border-radius: 9px;
   padding: 4px 8px;
   width: 98px;
@@ -754,7 +755,7 @@ label {
   max-width: 720px;
   margin: auto;
   display: flex;
-  gap:20px;
+  gap:80px;
 }
 
 .profile-head {

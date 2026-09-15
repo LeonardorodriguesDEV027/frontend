@@ -26,7 +26,7 @@ const nav = [
   ['/app/perfil', 'bi-person-circle', 'Perfil'],
   ['/app/admin', 'bi-gear', 'Administração'],
   ['/app/chat', 'bi-gear', 'Chat'],
-  ['/app/assinaturas', 'bi-gear', 'Assinatura']
+  ['/app/assinaturas', 'bi-gear', 'Assinaturas']
 ];
 export default function AppShell() {
   const { user, logout } = useAuth();
@@ -75,7 +75,7 @@ export default function AppShell() {
           </div>
         </div>
         <div className="topbar d-none d-lg-flex">
-          <Brand compact />
+          
           <div className="topbar-right">
             <button className="icon-btn">
               <i className="bi bi-bell" />
